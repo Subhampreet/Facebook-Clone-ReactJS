@@ -35,9 +35,9 @@ function Header() {
                     <button>Create</button>
             </div>
             <div className="header-end">
-                <NotificationsIcon />
-                <WhatsAppIcon className="primary" />
-                <ArrowDropDownCircleIcon />
+                <NotificationsIcon className="header-end-icon" />
+                <WhatsAppIcon className="primary header-end-icon" />
+                <ArrowDropDownCircleIcon className="header-end-icon" />
             </div>
         </div>
     )
